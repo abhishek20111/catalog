@@ -35,7 +35,7 @@ Test Case 1:
 
 ## json
 
-\[{
+ ```{
     "keys": {
         "n": 4,
         "k": 3
@@ -56,7 +56,7 @@ Test Case 1:
         "base": "4",
         "value": "213"
     }
-} \]
+} 
 Test Case 2:
 
 ## json
