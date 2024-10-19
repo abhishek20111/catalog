@@ -19,23 +19,29 @@ The goal is to decode the provided roots, calculate the coefficients using polyn
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/shamir-secret-sharing.git
-   cd shamir-secret-sharing
+   git clone https://github.com/abhishek20111/catalog.git
+   cd catalog
 
 
-Usage
+## Usage
 Prepare your input JSON file with the roots.
-Compile and run the main Java program:
-bash
+      Compile and run the main Java program:
+      bash
 
 javac Main.java
 java Main input.json
+
+
+![Screenshot 2024-10-19 111730](https://github.com/user-attachments/assets/4a1bb34e-8a47-4a08-a8a0-26bc34964054)
+![Screenshot 2024-10-19 112517](https://github.com/user-attachments/assets/e9ced7c4-5913-4cca-8e6a-fae82efc2893)
+
+
 Example Input
 Test Case 1:
 
-json
+## json
 
-{
+ ```{
     "keys": {
         "n": 4,
         "k": 3
@@ -57,11 +63,15 @@ json
         "value": "213"
     }
 }
+
+scrrenshort 
+
+
 Test Case 2:
 
-json
+## json
 
-{
+``` {
   "keys": {
     "n": 10,
     "k": 7
@@ -106,7 +116,7 @@ json
     "base": "7",
     "value": "1101613130313526312514143"
   }
-}
+} 
 Output
 Output for Test Case 1:
 
