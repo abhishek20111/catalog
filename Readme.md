@@ -19,7 +19,7 @@ The goal is to decode the provided roots, calculate the coefficients using polyn
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/abhishek20111/catalog](https://github.com/abhishek20111/catalog.git)
+   git clone https://github.com/abhishek20111/catalog.git
    cd catalog
 
 
