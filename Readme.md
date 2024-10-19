@@ -23,19 +23,19 @@ The goal is to decode the provided roots, calculate the coefficients using polyn
    cd shamir-secret-sharing
 
 
-Usage
+## Usage
 Prepare your input JSON file with the roots.
-Compile and run the main Java program:
-bash
+      Compile and run the main Java program:
+      bash
 
 javac Main.java
 java Main input.json
 Example Input
 Test Case 1:
 
-json
+## json
 
-{
+\[{
     "keys": {
         "n": 4,
         "k": 3
@@ -56,12 +56,12 @@ json
         "base": "4",
         "value": "213"
     }
-}
+} \]
 Test Case 2:
 
-json
+## json
 
-{
+``` {
   "keys": {
     "n": 10,
     "k": 7
@@ -106,7 +106,7 @@ json
     "base": "7",
     "value": "1101613130313526312514143"
   }
-}
+} 
 Output
 Output for Test Case 1:
 
